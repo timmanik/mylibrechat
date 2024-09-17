@@ -9,4 +9,4 @@ This repository contains the necessary files to set up and run [LibreChat](https
 - `docker-compose.override.yml`: Custom Docker Compose override file to ensure proper setup with Ollama.
 
 ## Note
-This setup does not support Retrieval-Augmented Generation (RAG). If you need RAG support, you may need additional configuration or use a different setup.
+This setup uses the `nomic-embed-text` embedding model provided by Ollama.
