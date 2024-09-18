@@ -96,9 +96,9 @@ services:
 #     ports:
 #       - 7700:7700
 
-# # USE RAG API IMAGE WITH LOCAL EMBEDDINGS SUPPORT
-#   rag_api:
-#     image: ghcr.io/danny-avila/librechat-rag-api-dev:latest
+# USE RAG API IMAGE WITH LOCAL EMBEDDINGS SUPPORT
+  rag_api:
+    image: ghcr.io/danny-avila/librechat-rag-api-dev:latest
 # # For Linux user: 
 #    extra_hosts:
 #      - "host.docker.internal:host-gateway"
